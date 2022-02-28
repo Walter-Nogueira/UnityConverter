@@ -11,7 +11,7 @@ namespace ConversorUnidades
         public void MeterToMille(double getValue)
         {
             double result = getValue / 1609;
-            Console.WriteLine("\n {0}m = {1} Milha(s)", getValue, Math.Round(result, 8));
+            Console.WriteLine("\n {0}m = {1} Mi", getValue, Math.Round(result, 8));
         }
     }
 }

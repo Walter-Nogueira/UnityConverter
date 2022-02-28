@@ -11,7 +11,7 @@ namespace ConversorUnidades
         public void KmToMilles(double getValue)
         {
             double result = getValue / 1.609;
-            Console.WriteLine("\n {0} Km = {1} Milha(s)", getValue, Math.Round(result, 2));
+            Console.WriteLine("\n {0}Km = {1} Mi", getValue, Math.Round(result, 2));
         }
     }
 }
