@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConversorUnidades
+namespace ConversorUnidades.Program
 {
     internal class MessageStart
     {
@@ -17,6 +17,6 @@ namespace ConversorUnidades
             Console.Write("\n Sua escolha: ");
         }
 
-        
+
     }
 }

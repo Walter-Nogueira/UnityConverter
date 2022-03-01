@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConversorUnidades
+namespace ConversorUnidades.UnityMass
 {
     internal class MassSwitch
-    {    
+    {
         public void Condition(double unit1, double unit2, double value)
         {
             switch (unit1, unit2)

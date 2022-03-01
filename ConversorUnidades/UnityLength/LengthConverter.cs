@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConversorUnidades
+namespace ConversorUnidades.UnityLength
 {
     internal class LengthConverter
     {
@@ -23,7 +23,7 @@ namespace ConversorUnidades
             // Condicional de erro
             LengthErro lenghtErro = new LengthErro();
             lenghtErro.ConditionErro(unit1, unit2);
-            
+
             Console.Write("\n Entre com o valor a ser convertido: ");
             double value = Convert.ToDouble(Console.ReadLine());
             // Swith

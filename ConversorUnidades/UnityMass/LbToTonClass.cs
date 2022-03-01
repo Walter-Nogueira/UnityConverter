@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConversorUnidades
+namespace ConversorUnidades.UnityMass
 {
     internal class LbToTonClass
     {
