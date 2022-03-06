@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConversorUnidades.UnityLength
-{
+namespace ConversorUnidades.UnityLength;
+
     internal class LenghtSwitch
     {
         public void Condition(double unit1, double unit2, double value)
@@ -39,4 +39,4 @@ namespace ConversorUnidades.UnityLength
             }
         }
     }
-}
+
